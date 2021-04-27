@@ -4,7 +4,7 @@ import java.util.Locale;
 public class Main {
 
     public static void main(String[] args) {
-        User user1 = new User(1,"Berkan Demiral","","ahmet123");
+        User user1 = new User(1,"Berkan Demiral","","berkan123");
 
         user1.setUsername(UserManage.autoCreateUsername(user1));
         user1.setNameSurname(UserManage.newNameSurname(user1));
